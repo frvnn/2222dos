@@ -46,6 +46,8 @@
 .proximamente {
         width: 956px;
         margin: 2em;
+        margin-top: 79px;
+        margin-bottom: 26px;
     }
 
 .somos-musica {
@@ -63,5 +65,5 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
+    text-decoration: none;
 }

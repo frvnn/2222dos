@@ -11,11 +11,11 @@ function Home() {
         <>
                 <div className="container-home">
                                 <img className="px-3 px-lg-0 logo img-fluid " src={Logo22}/>
-                                <img className="px-3 px-lg-0 proximamente img-fluid" src={proximamente} />
+                                <img className="px-3 px-lg-0 proximamente img-fluid animate__animated animate__flash animate__slower animate__delay-5s animate__infinite" src={proximamente} />
                                 <img className="somos-musica img-fluid" src={somosmusica}/>
-                                <a href='mailto:info@2222agencia.com' id='mail' target="_blank">info@2222agencia.com</a>
                 </div>
-                <div className='text-center mb-4'> <a href="https://pampacode.com/" target="_blank"><img src={LogoPampa} width="120" alt="Pampa code" /></a></div>
+                <a href='mailto:info@2222agencia.com' id='mail' target="_blank">info@2222agencia.com</a>
+                <div className='text-center mt-4 mb-4'>By <a href="https://pampacode.com/" target="_blank"><img src={LogoPampa} width="60" alt="Pampa code" /></a></div>
         </>
         );
         }
