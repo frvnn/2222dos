@@ -42,3 +42,17 @@ body {
     align-items: center;
     justify-content: center;
     }
+
+.proximamente {
+        width: 956px;
+        margin: 3em;
+    }
+
+.somos-musica {
+        width: 297px;
+    }
+
+#mail {
+    color: var(--concrete);
+    margin-top: 4em;
+}
