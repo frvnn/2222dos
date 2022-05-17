@@ -31,9 +31,10 @@
     justify-content: center;
     flex-direction: column;
     display: flex;
-    height: 800px;
+    height: 700px;
     position: relative;
     top: -14px;
+    margin-top: 70px;
     }
 
 .container-home > a {
