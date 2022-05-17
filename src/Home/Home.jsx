@@ -6,12 +6,15 @@ import somosmusica from '../assets/Home/somos-musica.svg'
 
 function Home() {
         return (
-        <div className="container">
-                <img className="logo" src={logo}/>
-                <img className="proximamente" src={proximamente} />
-                <img className="somos-musica" src={somosmusica}/>
-                <span id='mail'>info@2222agencia.com</span>
-        </div>
+        <>
+                <div className="container">
+                                <img className="logo img-fluid" src={logo}/>
+                                <img className="proximamente img-fluid" src={proximamente} />
+                                <img className="somos-musica img-fluid" src={somosmusica}/>
+                                <span id='mail'>info@2222agencia.com</span>
+                </div>
+                
+        </>
         );
     }
 

@@ -18,12 +18,12 @@
 
 }
 
-body {
-    background-color: var(--black);
+* {
+    background-color: black;
     background-image: url(../assets/Home/grid.png);
     background-position: 100%;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .container {
@@ -32,11 +32,13 @@ body {
     flex-direction: column;
     display: flex;
     height: 920px;
+    position: relative;
+    top: -14px;
     }
 
 .proximamente {
         width: 956px;
-        margin: 3em;
+        margin: 2em;
     }
 
 .somos-musica {
@@ -45,5 +47,8 @@ body {
 
 #mail {
     color: var(--concrete);
-    margin-top: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
