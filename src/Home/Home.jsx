@@ -7,7 +7,6 @@ import somosmusica from '../assets/Home/somos-musica.svg'
 function Home() {
         return (
         <div className="container">
-            <h1>holi</h1>
             <div className="overlap-group">
                 <img className="logo" src={logo}/>
                 <img className="proximamente" src={proximamente} />
