@@ -10,8 +10,8 @@ function Home() {
         return (
         <>
                 <div className="container-home">
-                                <img className="p-3 logo img-fluid animate__animated animate__bounce animate__slow animate__delay-2s" src={Logo22}/>
-                                <img className="p-3 proximamente img-fluid animate__animated animate__flash animate__slower animate__delay-3s animate__infinite" src={proximamente} />
+                                <img className="px-3 logo img-fluid animate__animated animate__bounce animate__slow animate__delay-2s" src={Logo22}/>
+                                <img className="px-3 proximamente img-fluid animate__animated animate__flash animate__slower animate__delay-3s animate__infinite" src={proximamente} />
                                 <img className="somos-musica img-fluid animate__animated animate__pulse animate__slower animate__delay-3s" src={somosmusica}/>
                                 <a href='mailto:info@2222agencia.com' id='mail' target="_blank">info@2222agencia.com</a>
                 </div>
