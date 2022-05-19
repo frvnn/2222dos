@@ -8,13 +8,13 @@
     --white:rgba(255, 255, 255, 1);
     --black: #0c0c0c;
 
-    --font-size-xs: 20px;
-    --font-size-s: 26px;
-    --font-size-m: 28px;
-    --font-size-l: 30px;
-    --font-size-xl: 32px;
-    --font-size-xxl: 38px;
-    --font-size-xxxl: 84px;
+    --font-xs: 14px;
+    --font-s: 16px;
+    --font-m: 21.328px;
+    --font-l: 28.43px;
+    --font-xl: 37.897px;
+    --font-xxl: 50.517px;
+    --font-xxxl: 67.34px;
 
 }
 
@@ -46,8 +46,6 @@
 .proximamente {
         width: 956px;
         margin: 2em;
-        margin-top: 79px;
-        margin-bottom: 26px;
     }
 
 .somos-musica {
@@ -66,4 +64,39 @@
     align-items: center;
     justify-content: center;
     text-decoration: none;
+}
+
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:1000px) {
+    .logo-container {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:800px) {
+    .logo-container {
+        width: 200px;
+    }
+    .proximamente {
+        width: 400px;
+        padding: 20px;
+    }
+    .dots {
+        width: 40px;
+    }
+}
+
+
+@media (max-width:1000px) {
+    .dots {
+        transform: rotate(90deg);
+        margin: 0px;
+        padding: 0px;
+    }
 }
