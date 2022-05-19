@@ -56,6 +56,9 @@
     .somos-musica {
         width: 200px;
     }
+    .container-home{
+        height: 580px;
+    }
 }
 
 #mail {
