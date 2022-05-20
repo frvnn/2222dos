@@ -54,10 +54,25 @@
 
 @media (max-width:554px) {
     .somos-musica {
-        width: 200px;
+        width: 200px !important;
     }
     .container-home{
         height: 400px;
+    }
+    .logo-container{
+        width: 150px;
+    }
+    .dots{
+        width: 25px !important;
+    }
+    .logo{
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+        width: 130px;
+    }
+    .proximamente{
+        width: 330px !important;
+        margin-bottom: 0px !important;
     }
 }
 
