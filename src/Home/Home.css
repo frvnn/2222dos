@@ -44,6 +44,7 @@
     text-decoration: none;
 }
 .proximamente {
+        margin-top: 90px !important;
         width: 956px;
         margin: 2em;
     }
@@ -73,6 +74,7 @@
     .proximamente{
         width: 330px !important;
         margin-bottom: 0px !important;
+        margin-top: 30px !important;
     }
 }
 
